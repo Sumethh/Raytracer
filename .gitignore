@@ -234,3 +234,10 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
+Raytracer/template/lib/
+Raytracer/template/clean.bat
+Raytracer/template/gp1template_v2.sln
+Raytracer/template/gp1template_v2.vcxproj
+Raytracer/template/sddas.txt
+Raytracer/template/todo.txt
+Raytracer/template/assets/image3.jpg

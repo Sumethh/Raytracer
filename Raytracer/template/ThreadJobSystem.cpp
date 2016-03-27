@@ -106,6 +106,7 @@ void ThreadJobSystem::WaitForJobsToFinish()
 
 	while (!CanSync())
 	{
+    std::this_thread::yield();
 		//printf("WAITING\n");
 	}
 	////printf("%d\n", m_jobQueue.size());
